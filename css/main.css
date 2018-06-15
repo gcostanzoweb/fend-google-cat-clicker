@@ -1,0 +1,19 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#cat {
+	width: 90%;
+	max-width: 600px;
+	transition: width 0.1s, max-width 0.1s;
+	-webkit-transition: width 0.1s, max-width 0.1s;
+}
+
+#cat.clicked {
+	width: 85%;
+	max-width: 550px;
+}
